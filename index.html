@@ -35,6 +35,8 @@
                 comonGR: '#ABEF5F',
                 comonGRlow: '#ABEF5F80',
                 iconBG: '#FFFFFF',
+                heddingCOL: '#212121',
+                detailsCOL: '#212121',
               }
             }
           }
@@ -44,19 +46,19 @@
 <body class="manrope-font">
     <!-- Header Section -->
     <header class=" md:container lg:container mx-auto p-3 sm:p-3 lg:py-10">        
-        <nav class="flex justify-between content-center">
+        <nav class="flex justify-between content-center mb-12">
             <h3 class="text-3xl text-black font-extrabold">
-                <i class="fa-solid fa-arrow-right text-lg justify-center bg-comonGR px-3 py-1 rounded-full -rotate-45"></i>
+                <i class="fa-solid fa-arrow-right text-lg justify-center bg-comonGR text-base px-2 py-1 rounded-full -rotate-45"></i>
                 Rinterio</h3>
 
             <!-- Nav Items -->
             <div class="hidden sm:block md:block ">
                 <ul class="flex items-center gap-16">
-                    <li class="font-extrabold text-gray-700  text-base" >Home</li>
-                    <li class="font-medium text-gray-700 text-base">Services</li>
-                    <li class="font-medium text-gray-700 text-base">Portfolio</li>
-                    <li class="font-medium text-gray-700 text-base">Blogs</li>
-                    <li class="font-medium text-gray-700 text-base">Contact Us</li>
+                    <li class="font-extrabold text-gray-800  text-base" >Home</li>
+                    <li class="font-bold text-gray-700 text-base">Services</li>
+                    <li class="font-bold text-gray-700 text-base">Portfolio</li>
+                    <li class="font-bold text-gray-700 text-base">Blogs</li>
+                    <li class="font-bold text-gray-700 text-base">Contact Us</li>
                 </ul>
             </div>
             <!-- Icons -->
@@ -65,15 +67,34 @@
              <div class="hidden sm:block">
                 <i class="fa-solid bg-gray-100  p-4 rounded-full fa-cart-shopping mr-6"></i>
                 <i class="fa-solid bg-gray-100  p-4 rounded-full fa-magnifying-glass mr-6"></i>
-                <button class="text-xl font-extrabold px-6 py-3 rounded-full bg-comonGR ">Book Consult
+                <button class="text-lg font-extrabold px-5 py-3 rounded-full bg-comonGR ">Book Consult
                     <i class="fa-solid -rotate-45 fa-arrow-right text-sm text-white ml-1 px-2 bg-black py-1 rounded-full"></i>
                 </button>
              </div>
              <!-- Hambar Icon -->
-             <div class="visible lg:hidden sm:visible md:hidden bg-gray-200 text-xl font-extrabold rounded-full p-3 px-4 ">
+             <div class="visible lg:hidden sm:visible md:hidden bg-gray-200 text-xl font-extrabold rounded-full p-2 px-3 ">
                 <i class="fa-solid fa-bars"></i>
              </div>
         </nav>
+
+        <!-- Banner Section -->
+         <section class="">
+            <!-- Image -->
+            <div class="flex justify-center items-center mb-6">
+                <img src="assets/banner.png" alt="">
+            </div>
+
+            <!-- Contant -->
+             <div class="text-center">
+                <h1 class="text-6xl font-extrabold mb-7 text-heddingCOL">A barn house of this design has a <br> striking appearance</h1>
+                <p class="text-detailsCOL mx-auto lg:max-w-4xl  sm:max-w-lg mb-7">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+                <div class="bg-comonGRlow rounded-full text-xl text-black font-extrabold lg:max-w-52  mx-auto  px-6 py-3   ">
+                    View Details
+                    <i class="fa-solid -rotate-45 fa-arrow-right text-sm   bg-comonGR ml-1 px-2 bg- py-1 rounded-full"></i>
+                </div>
+             </div>
+         </section>
     </header>
     
     <!-- Main Section -->
